@@ -1,0 +1,12 @@
+## Kubernetes
+- A container orchestration platform
+- Problems/Limitations with Docker:
+	- Containers are ephemeral in nature(can die and revive anytime)
+	- Single host nature of docker leads to issues where a container might not be getting enough required resources
+	- No auto healing(a killed container doesn't start without manual intervention)
+	- No auto scaling for handling increased load
+	- No enterprise level support
+- Kubernetes is installed as a cluster(group of nodes containing containers(pods))
+- Multi node architecture allows K8s to shift faulty pod to another node
+- Replica sets and HPA(Horizontal Pod Accelerator) help in handling increased traffic to the application
+- Built in auto healing replaces faulty containers

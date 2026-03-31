@@ -1,0 +1,12 @@
+## K8s Architecture
+- The simplest unit in Docker is **container** while in Kubernetes there is **pod**
+- Components of a worker node:
+	- Docker containers require a runtime called Dockershim. In K8s we have two components: kubelet and runtime
+	- **Kubelet** is responsible for maintaining a pod and **container runtimes** like Dockershim, cri-o, containerd implement the container interface
+	- **Kubeproxy** provides networking, IPs and load balancing capabilities
+- The worker nodes are connected to the **control plane** or the **master node**
+- Components of master node:
+	- The **API server** helps Kubernetes to accept incoming requests
+	- **Scheduler** is responsible for scheduling pods or resources
+	- **etcd** acts as the backup store for cluster information, stores key:value pairs
+	- 
