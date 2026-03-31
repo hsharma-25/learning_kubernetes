@@ -1,0 +1,17 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS "Trash" metadata
+.Trashes
+.Spotlight-V100
+.fseventsd
+
+# Obsidian cache/state files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/plugins/**/node_modules
