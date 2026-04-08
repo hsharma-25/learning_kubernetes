@@ -1,6 +1,6 @@
 ## Kubernetes Service
 - When there's no service in place:
-	- After auto healing, Pods get assigned new IPs and become inaccessible by other users 
+	- After auto healing, pods get assigned new IPs and become inaccessible by other users 
 	- No load balancing
 - Service offers:
 	- Load balancing
