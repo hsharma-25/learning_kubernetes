@@ -1,6 +1,6 @@
 ## Kubernetes
 - A container orchestration platform
-- Problems/Limitations with Docker:
+- Why we need K8s or Problems/Limitations with Docker:
 	- Containers are ephemeral in nature(can die and revive anytime)
 	- Single host nature of docker leads to issues where a container might not be getting enough required resources
 	- No auto healing(a killed container doesn't start without manual intervention)
