@@ -6,6 +6,6 @@
 5. [Service](learning_kubernetes/Service.md)
 6. [Common Kubernetes Commands](learning_kubernetes/common_commands.md)
 7. [What is a Namespace](learning_kubernetes/namespace.md)
-8. [Kubernetes Ingress](learning_kubernetes/ingress)
+8. [Kubernetes Ingress](learning_kubernetes/ingress.md)
 
 
